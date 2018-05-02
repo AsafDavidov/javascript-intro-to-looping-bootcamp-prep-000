@@ -25,7 +25,5 @@ function maybeTrue() {
 function doWhileLoop(array){
   do{
     array.pop()
-    console.log(array);
-    console.log(array.length);
-  }while( array.length > 0);
+  }while( maybeTrue() && array.length > 0);
 }
