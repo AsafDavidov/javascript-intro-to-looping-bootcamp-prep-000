@@ -27,5 +27,5 @@ function doWhileLoop(array){
     array.pop()
     console.log(array);
     console.log(array.length);
-  }while(maybeTrue() && array.length > 0);
+  }while(maybeTrue() && array.length > 1);
 }
