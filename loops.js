@@ -7,7 +7,7 @@ function forLoop(array){
     else{
       outputString = "I am " + i + " strange loops.";
     }
-    
+    array[array.length] = outputString;
   }
   return array;
 }
