@@ -23,6 +23,9 @@ function maybeTrue() {
   return Math.random() >= 0.5
 }
 function doWhileLoop(array){
+  if(array.length > 0){
+    console.log("lengthcomped")
+  }
   do{
     array.pop()
   } while(maybeTrue() && array.length > 0)
