@@ -26,6 +26,9 @@ function doWhileLoop(array){
   if(array.length > 0){
     console.log("lengthcomped");
   }
+  else{
+    console.log("lengthnotcomped");
+  }
   do{
     array.pop()
   } while(maybeTrue() && array.length > 0)
